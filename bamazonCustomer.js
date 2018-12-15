@@ -43,7 +43,7 @@ let run = function () {
         console.log(`\nWelcome to bamazon. Here are our current product listings:\n`);
 
         for (let i = 0; i < res.length; i++) {
-            console.log(`ID#: ${res[i].item_id} || Product Name: ${res[i].product_name} || Price: $${res[i].price}\n`);
+            console.log(`ID#: ${res[i].item_id} || Product Name: ${res[i].product_name} || Department: ${res[i].department_name} || Price: $${res[i].price}\n`);
         };
         inquirer.prompt([
             {

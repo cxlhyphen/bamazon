@@ -15,33 +15,33 @@ PRIMARY KEY (item_id)
 
 -- insert data:
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("leggings", "clothes", 10, 20);
+VALUES ("Leggings", "Clothes", 10, 20);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("pants", "clothes", 10, 20);
+VALUES ("Pants", "Clothes", 10, 20);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("tshirt", "clothes", 8, 10);
+VALUES ("Tshirt", "Clothes", 8, 10);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("green tea", "food", 6, 10);
+VALUES ("Green Tea", "Grocery", 6, 10);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("chips", "food", 3, 14);
+VALUES ("Chips", "Grocery", 3, 14);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("cookies", "food", 3, 8);
+VALUES ("Cookies", "Grocery", 3, 8);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("nintendo switch", "electronics", 299, 3);
+VALUES ("Nintendo Switch", "Electronics", 299, 3);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("jenga", "toys", 10, 4);
+VALUES ("Jenga", "Toys", 10, 4);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("spatula", "kitchen", 7, 8);
+VALUES ("Spatula", "Home", 7, 8);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("salad spinner", "kitchen", 13, 4);
+VALUES ("Salad Spinner", "Home", 13, 4);
 
 SELECT * FROM products;
